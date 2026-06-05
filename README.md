@@ -1,4 +1,5 @@
-Richard Feynman Digital Twin — Premium AI Agent
+# Richard Feynman Digital Twin — Premium AI Agent
+
 An advanced, highly interactive, and visually stunning digital twin of the Nobel Laureate physicist, Richard P. Feynman. This project emulates Feynman's scientific reasoning, signature speech patterns (the "Feynman Technique"), boyish personality, and physics knowledge through a state-of-the-art RAG pipeline, stateful dual-tier memory, authentic F5-TTS zero-shot voice cloning, and an ultra-premium glassmorphic web dashboard containing a live-drawing chalk blackboard and curiosity meter.
 
  Premium Visual Innovations
