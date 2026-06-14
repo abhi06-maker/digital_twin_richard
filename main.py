@@ -145,7 +145,7 @@ class FeynmanAgent:
 
         # Build a dynamic model instance using system_instruction
         model = genai.GenerativeModel(
-            model_name="gemini-3.5-flash",
+            model_name="gemini-2.5-flash",
             generation_config=genai.GenerationConfig(
                 temperature=0.85,
                 top_p=0.95,
