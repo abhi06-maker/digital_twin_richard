@@ -1,27 +1,4 @@
-"""
-ingest.py — Load Feynman's texts into ChromaDB for RAG retrieval.
 
-HOW TO USE:
-1. Put your source files in the ./sources/ directory
-   Supported: .txt, .pdf, .md
-   
-   SUGGESTED SOURCES (all freely available):
-   - "Feynman Lectures on Physics" excerpts (feynmanlectures.caltech.edu)
-   - "Surely You're Joking, Mr. Feynman!" excerpts
-   - "The Pleasure of Finding Things Out" (interviews)
-   - "There's Plenty of Room at the Bottom" (paper, free)
-   - "QED: The Strange Theory of Light and Matter" excerpts
-   - Feynman's 1959 Caltech talk transcripts
-   - Nobel Prize lecture (nobelprize.org, free)
-   
-2. Run: python ingest.py
-
-This script:
-- Reads all documents from ./sources/
-- Splits them into overlapping chunks
-- Embeds each chunk using sentence-transformers
-- Stores in ChromaDB (./chroma_db/)
-"""
 
 import os
 import sys
