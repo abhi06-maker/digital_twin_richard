@@ -1,6 +1,4 @@
-"""
-main.py — Feynman Digital Twin Core Engine
-"""
+
 
 import os
 import sys
